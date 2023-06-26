@@ -1,7 +1,7 @@
 name: cli_progress_bar
-description: A sample command-line application.
+description: Package for creating cli progress bar, customizing it.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/GlebBatykov/cli_progress_bar
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
