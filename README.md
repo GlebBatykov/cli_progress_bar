@@ -19,9 +19,9 @@ The package provides the ability to output the progress bar to the terminal, cha
 
 # Example
 
-![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/docs/gifs/1.gif)
+![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/doc/gifs/1.gif)
 
-![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/docs/gifs/2.gif)
+![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/doc/gifs/2.gif)
 
 # How to use
 

@@ -19,9 +19,9 @@
 
 # Пример
 
-![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/docs/gifs/1.gif)
+![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/doc/gifs/1.gif)
 
-![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/docs/gifs/2.gif)
+![Alt Text](https://raw.githubusercontent.com/GlebBatykov/cli_progress_bar/main/doc/gifs/2.gif)
 
 # Как использовать
 
@@ -33,7 +33,7 @@ Progress bar состоит из 3 основных частей:
 
 При создании progress bar-а необходимо указать схему. В схеме используются тэги для того чтобы указать места в которых будет выводится содержимое.
 
-Пример схемы: '#before #bar #after'. Вместо тэга` #before` будет выведен `before` содержимое, вместо тэга `#after` будет выведено after содержимое, вместо тэга `#bar` будет выведен сам progress bar.
+Пример схемы: '#before #bar #after'. Вместо тэга `#before` будет выведен `before` содержимое, вместо тэга `#after` будет выведено after содержимое, вместо тэга `#bar` будет выведен сам progress bar.
 
 Пример создания и запуска progress bar-а, увеличения его заполненности:
 
