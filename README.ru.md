@@ -52,9 +52,11 @@ final bar = ProgressBar(
     ),
 );
 
-bar.start();
+bar.update();
 
-bar.update(10);
+bar.setProgress(10);
+
+bar.update();
 ```
 
 Вы можете изменять внешний вид и настройки вашего progress bar-а при помощи `ProgressBarSettings`:

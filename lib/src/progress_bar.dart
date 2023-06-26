@@ -38,10 +38,6 @@ final class ProgressBar {
         _before = before,
         _after = after;
 
-  void start() {
-    _print();
-  }
-
   void _print() {
     final value = _pipeline.handle(_schema, _context);
 
@@ -55,33 +51,31 @@ final class ProgressBar {
         value: _value,
       );
 
-  void update(final int progress) {
+  void setProgress(final int progress) {
     if (_value >= _max && progress >= _max) {
       return;
     }
 
     _value = progress > _max ? _max : progress;
-
-    _print();
   }
 
   void increment() {
-    update(_value + 1);
+    setProgress(_value + 1);
   }
 
   void decrement() {
-    update(_value - 1);
+    setProgress(_value - 1);
   }
 
-  void updateBefore(final String? value) {
+  void setBefore(final String? value) {
     _before = value;
-
-    _print();
   }
 
-  void updateAfter(final String? value) {
+  void setAfter(final String? value) {
     _after = value;
+  }
 
+  void update() {
     _print();
   }
 }

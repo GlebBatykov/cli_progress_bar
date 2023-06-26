@@ -31,7 +31,7 @@ void main() {
     ),
   );
 
-  bar.start();
+   bar.update();
 
   var progress = 0;
 
@@ -44,9 +44,11 @@ void main() {
       return;
     }
 
-    bar.update(progress);
+    bar.setProgress(progress);
 
-    bar.updateAfter('$progress/$max');
+    bar.setAfter('$progress/$max');
+
+    bar.update();
   });
 }
 ```
@@ -76,7 +78,7 @@ void main() {
     ),
   );
 
-  bar.start();
+  bar.update();
 
   var progress = 0;
 
@@ -89,9 +91,11 @@ void main() {
       return;
     }
 
-    bar.update(progress);
+    bar.setProgress(progress);
 
-    bar.updateAfter('$progress/$max');
+    bar.setAfter('$progress/$max');
+
+    bar.update();
   });
 }
 ```

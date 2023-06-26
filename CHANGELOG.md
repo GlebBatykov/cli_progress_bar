@@ -1,4 +1,9 @@
-# 1.0.3
+# 1.0.4
+
+- Update README files.
+- Update how you can update bar state.
+
+## 1.0.3
 
 - Add topics.
 
