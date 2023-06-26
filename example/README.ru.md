@@ -1,6 +1,6 @@
 <div align="center">
 
-[![pub package](https://img.shields.io/pub/v/file_copy.svg?label=file_copy&color=blue)](https://pub.dev/packages/file_copy)
+[![pub package](https://img.shields.io/pub/v/cli_progress_bar.svg?label=cli_progress_bar&color=blue)](https://pub.dev/packages/cli_progress_bar)
 
 **Языки:**
   
