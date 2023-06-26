@@ -13,7 +13,6 @@ topics:
   - cli
   - progress
   - bar
-  - progress bar
 
 dev_dependencies:
   lints: ^2.0.0
