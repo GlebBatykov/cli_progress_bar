@@ -1,6 +1,6 @@
 name: cli_progress_bar
 description: Package for creating cli progress bar, customizing it.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/GlebBatykov/cli_progress_bar
 
 environment:
