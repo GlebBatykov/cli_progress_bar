@@ -1,6 +1,6 @@
 name: cli_progress_bar
 description: Package for creating cli progress bar, customizing it.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/GlebBatykov/cli_progress_bar
 
 environment:
@@ -8,6 +8,12 @@ environment:
 
 dependencies:
   dart_console: ^1.2.0
+
+topics:
+  - cli
+  - progress
+  - bar
+  - progress bar
 
 dev_dependencies:
   lints: ^2.0.0
